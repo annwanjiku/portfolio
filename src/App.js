@@ -1,24 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import "./index.css"
+
+import Boxa from './Box1';
+import Boxb from './Box2';
+import Boxc from './Box3';
+import Boxe from './Box5';
+import CertificateCarousel from './Certifications';
+import Boxd from './Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ <div>
+
+  <div className='Boxa'>
+  <Boxa/>
+  <Boxc/>
+  </div>
+  
+  <div className='About'>
+  <Boxb/>
+  </div>
+  
+
+
+  
+  <CertificateCarousel />
+  <Boxe />
+  
+  <Boxd/>
+        <div>
+        <span className="copyright">
+                &copy; {new Date().getFullYear()} -designed by Wanjiku
+        </span>
+        </div>
+
+ </div>
   );
 }
 

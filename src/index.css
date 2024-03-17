@@ -1,13 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 20px;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-family: "DM Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #000;
+  color: #fff;
+  
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Arial,'Courier New',monospace;
+}
+
+
+img{
+  width: 500px;
+  height: 350px;
+  margin: 10px;
+  box-shadow: 1px 1px 3px 3px #fff;
+  border-radius: 3px;
+}
+
+button{
+  background-color: #4287f5;
+  color: #fff;
+  border-radius: 25px;
+  border:#fff;
+  padding: 10px 8px;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+
+h1{
+  font-size: 100px;
+  margin-bottom: 10px;
+
+}
+
+.contactButton {
+  margin:20px;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 1px 1px 6px 1px #fff;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 7px 3px;
+
+}
+
+.contactButton:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.icon{
+  font-size: 25px;
+  margin: 9px;
+}
+
+i{
+  width: 2rem;
+  padding: 6px;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 1px 1px 6px 1px #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+i:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.Boxa{
+  height: 100vh;
+  margin-top: 20px;
+}
+
+h1,.contactButton,.location{
+  display: flex;
+  align-items: center;
+
+}
+
+.About{
+  height: 100vh;
+  border-top: 0.1px solid grey;
+  display: flex;
+  align-items: center;
+}
+
+.h3About{
+  font-size: 40px;
+  width: 50vw;
+  text-align: center;
+  display: inline-block;
+}
+
+
+.skills{
+  margin-top: 0px;
+}
+.languages{
+  margin-top: 30px;
+}
+
+.title{
+  padding-bottom: 3px;
+  display: inline-block;
+  border-bottom: 1px solid #4287f5;
+  cursor: pointer;
+}
+.display{
+  height: 130px;
+  padding-bottom: 2px;
+}
+
+.boxb {
+  display: flex;
+}
+
+.Text,.resume{
+  margin-left: 30px;
+  margin-right: 250px;
+  text-align: justify;
+}
+.resume{
+  font-size: 25px;
+  border-radius: 0%;
+  border: 1px solid #4287f5;
+}
+.resume:hover{
+  background-color: #000;
+  border: 1px solid #4287f5;
+}
+
+.Text::first-letter {
+  font-size: 50px;
+  color: #4287f5;
+  font-weight: 800;
+}
+
+.h3About span {
+  padding-bottom: 5px;
+  border-bottom:2px solid #4287f5;
+
+}
+
+.button{
+  border:2px solid #fff;
+}
+
+.button:hover{
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #4287f5;;
+}
+
+.section1,.section2{
+  display: inline;
+  justify-content: end;
+  align-items: center;
+}
+
+.section2 a{
+  color: red;
+}
+
+.section2 a:hover{
+  color: blue;
+}
+
+.box5 h3,.cert h3{
+  font-size: 30px;
+}
+
+h3 span{
+  padding-bottom: 5px;
+  border-bottom:2px solid #4287f5;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  border-top: 0.1px solid grey;
+}
+
+.copyright{
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  
+}
+.cert{
+  display:block;
+  height: 80vh;
+  margin-right: 50vw;
+  border-top: 0.1px solid grey;
+
+}
+.box5{
+  display:block;
+  margin-left: 50vw;
+  height: 80vh;
+  border-top: 0.1px solid grey;
+}
+
+
+
+
+
+
+@media screen and (max-width:1020px){
+  .boxb {
+    display: block;
+  }
+  .About {
+    border-top: 0.1px solid grey;
+  
+  }
+  .h3About{
+    font-size: 40px;
+    display: flex-start;
+
+  }
+  .Text{
+    margin-left: 0px;
+    width:50%;
+    
+  }
+  .box5{
+    display:block;
+    margin-left: 0;
+    margin-right: 50vw;
+    height: 80vh;
+    border-top: 0.1px solid grey;
+  }
+
+
 }
