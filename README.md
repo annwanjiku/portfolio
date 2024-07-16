@@ -1,3 +1,2 @@
-# My current portfolio
+# My portfolio
 
--- changes in progress:)
