@@ -9,11 +9,10 @@ function Boxc(){
         <div>
         <h3 className="title">Skills</h3>
         </div>
-        
-        <button>Web Development</button>
         <button>Data Analysis</button>
         <button>Data Science</button>
-        <button>Programming Instructor</button>
+        <button>STEM Educator</button>
+        <button>Web Development</button>
         </div>
 
         <div className="languages">
@@ -24,8 +23,8 @@ function Boxc(){
 
         <button>Python</button>
         <button>Javascript</button>
-        <button>Java</button>
         <button>SQL</button>
+        <button>C#</button>
       
         </div>
     </div>
