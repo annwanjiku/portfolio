@@ -7,17 +7,15 @@ function Boxb(){
         </div>
         <div>
         <p className="Text">
-        Wanjiku began to learn programming in 2022.
-        In 2023, she transitioned into teaching programming languages and continues to thrive in this role. 
-        She demonstrates expertise in data analysis and data science. 
-        She is passionate about advancing herself and others in STEM fields, and
-        working towards empowerment and growth in her community.
-        She is pursuing a degree in Medical Laboratory Science and Technology at the University Of Nairobi.
-        She is keen to learn and very open to work.
+        Wanjiku is a STEM educator.
+        She is passionate in teaching programming languages.
+        Her top skills are in data analysis and data science. 
+        She aims to advance herself in STEM and use the skills gained to empower others and especially her community.
+        She is keen to learn and open to work.
         </p>
-        <button className="resume" onClick={() => window.open("https://eu.docworkspace.com/d/sIHuywOj1Aa_N168G", "_blank")}>Resume</button>
-
+        <button className="resume" onClick={() => window.open("https://eu.docworkspace.com/d/sILyywOj1AY_d4LcG", "_blank")}>Resume</button>
         </div>
+
         </div>
     )
 };

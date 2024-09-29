@@ -16,14 +16,6 @@ code {
 }
 
 
-img{
-  width: 500px;
-  height: 350px;
-  margin: 10px;
-  box-shadow: 1px 1px 3px 3px #fff;
-  border-radius: 3px;
-}
-
 button{
   background-color: #4287f5;
   color: #fff;
@@ -200,7 +192,7 @@ h3 span{
 }
 .cert{
   display:block;
-  height: 80vh;
+  height: 60vh;
   margin-right: 50vw;
   border-top: 0.1px solid grey;
 
@@ -208,7 +200,7 @@ h3 span{
 .box5{
   display:block;
   margin-left: 50vw;
-  height: 80vh;
+  height: 40vh;
   border-top: 0.1px solid grey;
 }
 
@@ -233,15 +225,16 @@ h3 span{
   .Text{
     margin-left: 0px;
     width:50%;
+
     
   }
   .box5{
     display:block;
     margin-left: 0;
     margin-right: 50vw;
-    height: 80vh;
     border-top: 0.1px solid grey;
   }
+
 
 
 }
